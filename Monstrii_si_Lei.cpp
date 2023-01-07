@@ -214,6 +214,7 @@ class ActorsCast
             remove("total_cost.csv");
             rename("intermediate.csv", "total_cost.csv");
         }
+    
         ~ActorsCast()
         {
             cout << "Deleting default constructor." << endl;
